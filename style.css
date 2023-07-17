@@ -8,15 +8,15 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 10vw; 
+     
     
 }
 
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 8px;
-    /*width: 80vw; */
+    padding: 8px 0;
+    width: 80vw;
     margin: auto;
 
 }
@@ -29,4 +29,37 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+.hero-section {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+
+
+.hero-text {
+
+    
+    flex: 1 2 auto;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    color: #F9FAF8;
+
+}
+
+
+.img-container {
+    flex: 0 1 auto;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto; 
 }
