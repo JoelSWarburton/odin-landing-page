@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 0;
-    width: 80vw;
+    width: 70vw;
     margin: auto;
 
 }
@@ -38,21 +38,23 @@ a {
 
 .hero-section {
     display: flex;
-    width: 80vw;
+    width: 70vw;
     margin: auto;
     padding: 50px 0;
-    gap: 16px;
+    gap: 20px;
+    
 }
 
 
 .hero-text {
 flex: 1 2 auto;
+max-width: 650px;
 }
 
 .sign-up-button {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 8px;
+    padding: 8px 25px;
     border: none;
     color: #F9FAF8;
     font-weight: bold;
@@ -72,6 +74,7 @@ flex: 1 2 auto;
 
 .hero-main-text, .hero-secondary-text {
     margin: 5px 0;
+   
 }
 
 .hero-main-text {
@@ -83,3 +86,35 @@ flex: 1 2 auto;
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.info-section {
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-item {
+    width: 200px;
+    margin: 20px;
+}
+
+.info-image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px #3882F6 solid;
+}
+
+
